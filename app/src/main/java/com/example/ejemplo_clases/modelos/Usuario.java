@@ -12,7 +12,12 @@ public class Usuario {
     public ArrayList<Compra> compras;
 
     public Usuario(){
-
+        this.nombre = "";
+        this.documentoIdentidad = 0L;
+        this.correo = "";
+        this.contraseña = "";
+        this.fotoPerfil = "";
+        this.compras = new ArrayList<Compra>();
     }
 
     private void agregarCompra(){
